@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ytxaCpo%DFuMk?3*m6de">sos</variable><variable id="GZ$C}p]b0b4T-A7bK#W3">how to be a microbit</variable><variable id="J?aXUoWR|M@P.K)S_[{:">microbit</variable></variables><block type="device_gesture_event" id="z{pfhI54U/6[v_Q}~+zj" x="105" y="18"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_if" id="#.sTkNiOPOMe8^@|=!T#"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="0-wVo0#FR@GUg3JqimV0"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="Gt7*=tuKn$gi,%-ze%S#"/></value><value name="B"><shadow type="math_number" id="4d#[Dv.}?*RD7(3++n}+"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="=@|GB}X:O:MV$e3EW*E|"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="z;Chq[ej.M!OO_UY0au*"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block></statement></block><block type="device_gesture_event" id="T6Z!i:TW$u#P:M6;q7_k" x="441" y="106"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="playMelody" id=";#4nN[!,lOHy)lIZ,g*1"><value name="melody"><shadow type="melody_editor" id="?T83Irv/EQxiTfdyT_f:"><field name="melody">"A E G B C5 D F G "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="1YlYK#~V!c+^XFu}afwF"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">144</field></shadow></value></block></statement></block><block type="input_on_sound" id="kOXU0Q~1FHGDC$[P;)E^" x="442" y="326"><field name="sound">DetectedSound.Quiet</field><statement name="HANDLER"><block type="playMelody" id="Fe[QF?)7^.Oiq#BVg[VU"><value name="melody"><shadow type="melody_editor" id="Id4#tpTon];RQA*P!r;E"><field name="melody">"E B C5 A B G A F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="#w$lDj{V~/GrAokaM9SF"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">144</field></shadow></value></block></statement></block></xml>
